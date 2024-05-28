@@ -6,7 +6,8 @@ import Footer from './Footer.jsx'
 import Skills from './Skills.jsx'
 import About from './About.jsx'
 import Banner from './Banner.jsx'
-import './App.css';
+
+
 function App() {
   return (
     <div className="background-container">
