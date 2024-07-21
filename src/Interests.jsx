@@ -7,6 +7,8 @@ import sumiImg from './assets/sumi.png';
 import hibikeImg from './assets/hibike.png';
 import nierImg from './assets/nier.png';
 import crow from './assets/crow.png';
+import metroid from './assets/metroid.png';
+
 
 
 const DrawingCanvas = () => {
@@ -175,11 +177,15 @@ function Interests() {
     { src: swordfishImg, alt: 'Artwork 1' },
     { src: yuiImg, alt: 'Artwork 2' },
     { src: katamariImg, alt: 'Artwork 3' },
-    { src: frostImg, alt: 'Artwork 4' },
-    { src: sumiImg, alt: 'Artwork 5' },
     { src: hibikeImg, alt: 'Artwork 6' },
-    { src: nierImg, alt: 'Artwork 7' },
-    { src: crow, alt: 'Artwork 7'}
+    { src: sumiImg, alt: 'Artwork 5' },
+    { src: frostImg, alt: 'Artwork 4' },
+   
+   
+    { src: crow, alt: 'Artwork 7'},
+  
+ 
+   
   ];
 
   const openModal = (index) => {

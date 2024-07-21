@@ -4,6 +4,9 @@ import rpg from './assets/rpg.png';
 import frequency from './assets/frequency.png';
 import featherfriends from './assets/featherfriends.png';
 import pacman from './assets/arduino.png';
+import chatrooms from './assets/chatrooms.png';
+import reddit from './assets/reddit.png';
+import suffix from './assets/suffix.png';
 const Slideshow = () => {
   const [slideIndex, setSlideIndex] = useState(0);
 
@@ -35,7 +38,31 @@ const Slideshow = () => {
       description: 'A custom bird themed programming language I developed in a team.',
       githubLink: 'https://github.com/CitrusHappy/cs-152-feather-friends?tab=readme-ov-file',
       technologies: 'C • Flex • Bison'
-    }
+    },
+    {
+      src: suffix,
+      title: 'Linear Time Construction of Suffix Arrays ',
+      description: 'A working Python3 implementation of the Skew algorithm (DC3).',
+      githubLink: 'https://github.com/jvarg122/Linear-Time-Construction-of-Suffix-Arrays',
+      technologies: 'Python • Jupyter'
+    },
+    {
+      src: reddit,
+      title: 'Reddit Crawler',
+      description: 'A Reddit post crawler and search engine.',
+      githubLink: 'https://github.com/jvarg122/Reddit-Crawler?tab=readme-ov-file',
+       technologies: 'Python • HTML/CSS • JavaScript • Flask • PyLucene • Requests'
+    },
+    {
+      src: chatrooms,
+      title: 'Full-Stack Chat Website',
+      description: 'A full-stack multi-chat room website.',
+      githubLink: 'https://github.com/Avarg116/CS110',
+       technologies: 'HTML/CSS • JavaScript • React • Express framework • MongoDB • Firebase'
+    },
+
+
+
   ];
 
   const nextSlide = () => {
